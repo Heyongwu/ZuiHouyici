@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <android.support.v4.view.ViewPager
+        android:id="@+id/frag"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <RadioGroup
+        android:layout_weight="9"
+        android:id="@+id/rg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <RadioButton
+            android:text="轮播"
+            android:id="@+id/bt1"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:button="@null"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <RadioButton
+            android:text="ListView"
+            android:id="@+id/bt2"
+            android:layout_weight="1"
+            android:button="@null"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <RadioButton
+            android:text="啪啪啪啪"
+            android:id="@+id/bt3"
+            android:layout_weight="1"
+            android:button="@null"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <RadioButton
+            android:id="@+id/bt4"
+            android:text="噼噼啪啪"
+            android:layout_weight="1"
+            android:button="@null"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </RadioGroup>
+</LinearLayout>
